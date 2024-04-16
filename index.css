@@ -1,0 +1,95 @@
+h1{
+    text-align: center;
+}
+header{
+    background-color:  red;
+    color:white;
+    padding:20px 0;
+    text-align:center;
+    width:100%;
+    height:15px;
+
+}
+
+header nav a{
+    color:#fff;
+    text-decoration:none;
+    margin:20px;
+    display:inline-block;
+    nav-left: 20px;
+    margin-top:2px;
+}
+header nav{
+    text-align: left;
+}
+
+.logo{
+    display:block;
+    margin:0 auto 20px;
+    width:150px;
+}
+
+.image{
+    
+    margin-right:20px;
+    margin-top:25px;
+}
+ 
+.inner-div{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    background-color: blue;
+    Opacity:1px;
+   
+}
+
+.inner-div .image{
+    margin-right:20px;
+    margin-top:25px;
+    
+}
+.inner-div h2{
+    color:rgb(3, 22, 74);
+    position:absolute;
+    top:50px;
+    left:1000px;
+    margin:0;
+    width:50%;
+    font-size: 25px;
+    font: bold;
+}
+.inner-div p{
+    color:rgb(66, 61, 61);
+    position:absolute;
+    top:calc(150px + 1.5em);
+    margin:0;
+    left:1000px;
+    margin:0;
+    width:50%;
+    font-size:16px;
+
+} 
+
+/* .inner-div h2{
+    display:flex;
+    color:red;
+    margin-left:50px;
+    font-size:larger;
+} */
+/* .inner-div p{
+    display:flex;
+    color:red;
+    margin-left:50px;
+
+} */
+.outer-div {
+    align-items:center;
+    display:flex;
+    /* background-color:rgb(255,255,255,0.5); */
+}
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background-color: white;
+}
